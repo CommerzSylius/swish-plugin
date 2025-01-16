@@ -1,0 +1,7 @@
+swish_payment_redirect:
+    path: /payment/swish/redirect
+    controller: Commerzsylius\SwishPlugin\Controller\SwishPaymentController::redirectAction
+
+swish_payment_callback:
+    path: /payment/swish/callback
+    controller: Commerzsylius\SwishPlugin\Controller\SwishPaymentController::callbackAction
