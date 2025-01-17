@@ -2,7 +2,7 @@
 
 #namespace Commerzsylius\SwishPlugin;
 
-namespace Sylius\Commerzsylius\SwishPlugin;
+namespace Commerzsylius\SwishPlugin;
 
 use Sylius\Component\Payment\Model\PaymentMethodInterface;
 
