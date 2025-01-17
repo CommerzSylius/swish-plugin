@@ -66,9 +66,16 @@
         }
     },
     "autoload-dev": {
-        "Tests\\Commerzsylius\\SwishPlugin\\": "tests/",
-        "classmap": [
-            "tests/Application/Kernel.php"
+        "psr-4": {
+            "Commerzsylius\\SwishPlugin\\Tests\\": "tests/"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "/tests",
+            "/phpunit.xml.dist",
+            "/.gitignore",
+            "/.github"
         ]
     },
     "scripts": {

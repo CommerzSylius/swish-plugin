@@ -5,4 +5,5 @@ controllers:
     type: attribute
 
 swish_plugin:
-    resource: "@SwishPlugin/config/routes/swish_plugin.yaml"
+    resource: '@SwishPlugin/config/routes/swish_plugin.yaml'
+    type: yaml
