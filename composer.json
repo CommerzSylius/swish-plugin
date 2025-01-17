@@ -53,7 +53,7 @@
     },
     "extra": {
         "sylius": {
-            "plugin-class": "Commerzsylius\\SwishPlugin\\SwishPlugin"
+            "plugin-class": "Commerzsylius\\SwishPlugin\\CommerzsyliusSwishPlugin"
         },
         "symfony": {
             "require": "^6.4",
