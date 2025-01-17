@@ -1,7 +1,5 @@
 <?php
 
-#namespace Commerzsylius\SwishPlugin;
-
 namespace Commerzsylius\SwishPlugin;
 
 use Sylius\Component\Payment\Model\PaymentMethodInterface;
