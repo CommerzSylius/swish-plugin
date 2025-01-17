@@ -3,3 +3,6 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+swish_plugin:
+    resource: "@SwishPlugin/config/routes/swish_plugin.yaml"
